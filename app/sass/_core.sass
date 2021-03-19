@@ -1,0 +1,39 @@
+@import 'variables'
+@import 'mixins'
+
+*,
+*::after,
+*::before
+  padding: 0
+  margin: 0
+  border: 0
+  box-sizing: border-box
+
+body
+  font-size: px-to-rem($font-size)
+  position: relative
+  background: $light-bg
+  font-family: $primary-font
+  line-height: 1
+
+a
+  text-decoration: none
+
+h1, h2, h3, h4, h5, h6
+  font-weight: inherit
+  font-size: inherit
+
+ul, ol, li 
+  list-style: none
+
+.img-responsive
+  display: block
+  max-width: 100%
+  height: auto
+
+.container 
+	@include min-max(320px, 100%, 0)
+
+.wrap
+	@include min-max(320px, 1170px, 15px)
+

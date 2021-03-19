@@ -1,0 +1,54 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "start template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "start": "npm run dev && gulp serve",
+    "prod": "gulp prod",
+    "build": "npm run prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Klubnika2009/starter.git"
+  },
+  "keywords": ["sass", "scss", "js", "gulp"],
+  "author": "Klubnika2009 <conflictboy@hotmail.cz>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-beautify": "^3.0.0",
+    "gulp-cheerio": "^1.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-debug": "^4.0.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-image": "^6.2.1",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-remove-html-comments": "^1.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-strip-css-comments": "^2.0.0",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-webp": "^4.0.1",
+    "gulp-webp-css": "^1.1.0",
+    "gulp-webp-html": "^1.0.2",
+    "node-sass": "^5.0.0",
+    "webpack": "^5.27.0",
+    "webpack-stream": "^6.1.2"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
