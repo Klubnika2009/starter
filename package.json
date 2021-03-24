@@ -13,12 +13,17 @@
     "type": "git",
     "url": "https://github.com/Klubnika2009/starter.git"
   },
-  "keywords": ["sass", "scss", "js", "gulp"],
+  "keywords": [
+    "sass",
+    "scss",
+    "js",
+    "gulp"
+  ],
   "author": "Klubnika2009 <conflictboy@hotmail.cz>",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.13.10",
-    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
     "babel-loader": "^8.2.2",
     "browser-sync": "^2.26.14",
     "del": "^6.0.0",
@@ -45,7 +50,7 @@
     "gulp-webp-css": "^1.1.0",
     "gulp-webp-html": "^1.0.2",
     "node-sass": "^5.0.0",
-    "webpack": "^5.27.0",
+    "webpack": "^5.28.0",
     "webpack-stream": "^6.1.2"
   },
   "dependencies": {
